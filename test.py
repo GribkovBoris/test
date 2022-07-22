@@ -10,9 +10,10 @@ chrome_options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),
                           options=chrome_options)
 
-#AZAZA
+#AZAZAh
 
 driver.get('https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox')
+#driver.get('https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox')
 if(False):
     searchbox = driver.find_element(By.XPATH, '//*[@id="search"]/input')
     searchbox.send_keys('kek')
