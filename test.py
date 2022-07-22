@@ -9,7 +9,7 @@ chrome_options.add_experimental_option("detach", True)
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),
                           options=chrome_options)
-
+kak = 19
 #AZAZAh
 
 driver.get('https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox')
